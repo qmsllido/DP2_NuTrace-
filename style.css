@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #25A22B, #FFFFFF);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    margin-left: 125px;
+    margin-top: -30px;
+}
+.farmImg{
+    width: auto;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 35px;
+    margin-left: 10vw;
+    box-shadow: -2px 16px 10px black;
+}
+.signup{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 550px;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+    box-shadow: 0px 16px 10px black;
+}
+.form{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600,bold;
+    color: #25A22B;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    padding: 30px;
+    text-align: center;
+}
+.NuTrace{
+    padding: 10px;
+    text-align: center;
+}
+hr.rounded {
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+}
+
+.signinBtn, .registerBtn, .adminBtn {
+    background-color: #25A22B;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
