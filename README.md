@@ -1,4 +1,4 @@
-NuTrace: A Soil Nutrient Monitoring Device/System for Eggplant (Solanum melongena)
+*NuTrace: A Soil Nutrient Monitoring Device/System for Eggplant (Solanum melongena)
 
 Front-End: HTML/CSS
 Back-End: PHP
