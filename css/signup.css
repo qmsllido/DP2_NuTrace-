@@ -13,64 +13,66 @@
 }
 
 /* body */
-* {
+html {
+    width: 100rem;
+    height: 100rem;
     margin: 0;
     padding: 0;
-    text-align: center;
-}
-main {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    text-align: center;
+    position: fixed;
+    box-sizing: border-box;
     background: linear-gradient(to bottom left, #25A22B, #FFFFFF);
 }
-.body {
-    height: 100%;
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 110px;
+.content {
+    display: inline-flex;
 }
-.left {
-    width: auto;
-    float: left;
-    box-shadow: -2px 12px 10px rgb(75, 73, 73);
+.img-content {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-left: 70px;
 }
-.right {
-    width: 500px;
-    height: 650px;
-    font-weight: 600,bold;
-    float: left;
-    align-items: center;
+.img {
+    box-shadow: -3px 12px 10px rgb(75, 73, 73);
+    margin-bottom: 0;
+}
+.signup-content {
+    width: 400px;
+    height: 480px;
+    margin-top: 25px;
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
     color: #25A22B;
-    box-shadow: 0px 12px 10px rgb(75, 73, 73);
+    box-shadow: -3px 12px 10px rgb(75, 73, 73);
     background-color: rgb(255, 255, 255);
 }
-.form {
-    padding-top: 35px;
-}
 h1 {
-    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
     font-family:'Poppins-Black';
 }
 h2 {
+    margin-bottom: 0;
     font-family:'Poppins-Bold';
 }
 p {
+    margin-top: 0;
     font-family:'Poppins-Italic';
 }
 hr.rounded {
+    margin-top: 0;
+    margin-bottom: 0;
     border-top: 0.5px solid #cac1c1;
     border-radius: 5px;
-    margin: 10px;
     margin-left: 50px;
     margin-right: 50px;
     align-items: center;
 }
+
+/* buttons */
 button {
-    font-size: 30px;
-    margin: 5px;
+    font-size: 20px;
+    margin: 3px;
     padding: 10px;
     border-radius: 20px;
     border: none;
@@ -84,10 +86,10 @@ button {
     padding-right: 120px;
 }
 .btn2 {
-    padding-left: 105px;
-    padding-right: 105px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 .btn3 {
-    padding-left: 46px;
-    padding-right: 46px;
+    padding-left: 72px;
+    padding-right: 72px;
 }

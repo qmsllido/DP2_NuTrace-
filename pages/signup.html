@@ -2,19 +2,15 @@
 
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>NuTrace</title>
         <link rel ="stylesheet" href="/css/signup.css">
         <link rel="icon" type="image/png" href="/images/nutrace_logo.png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <main>
-            <div class="body">
-                <div class="left">
+        <main class="content">
+                <div class="img-content">
                     <script>
                         var i = 0; 			// Start Point
                         var images = [];	// Images Array
@@ -23,11 +19,10 @@
                         images[0] = "/images/duran1.jpeg";
                         images[1] = "/images/duran2.jpg";
                         images[2] = "/images/duran3.webp";
-                        images[3] = "/images/farm-bg.jpeg";
+                        images[3] = "/images/duran4.jpg";
                         // Change Image
                         function changeImg(){
                             document.slide.src = images[i];
-
                             // Check If Index Is Under Max
                             if(i < images.length - 1){
                             // Add 1 to Index
@@ -42,24 +37,20 @@
                         // Run function when page loads
                         window.onload=changeImg;
                     </script>    
-                    <img name="slide" width="800px" height="650px">
+                    <img class='img' name="slide" width="700rem" height="500rem">
                 </div>
-                <div class="right">
-                    <div class="form">
-                        <div class="logo">
-                            <img src="/images/nutrace_logo.png" width="140px" height="140px">
-                        </div>
-                        <h1> NuTrace</h1>
-                        <hr class="rounded">
-                        <h2>Welcome!</h2>
-                        <p>Maligayang Pagbabalik!</p>
-                        <br>
-                        <button class="btn1">SIGN IN</button><br>
-                        <button class="btn2">REGISTER</button><br>
-                        <button class="btn3">ADMINISTRATOR</button>
+                <div class="signup-content">
+                    <div class="logo">
+                        <img src="/images/nutrace_logo.png" width="120px" height="120px">
                     </div>
+                    <h1> NuTrace</h1>
+                    <hr class="rounded">
+                    <h2>Welcome!</h2>
+                    <p>Maligayang Pagbabalik!</p>
+                    <button class="btn1">SIGN IN</button><br>
+                    <button class="btn2">REGISTER</button><br>
+                    <button class="btn3">ADMINISTRATOR</button>
                 </div>
-            </div>
         </main>
     </body>
 </html>
