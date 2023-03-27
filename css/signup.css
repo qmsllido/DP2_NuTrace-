@@ -16,6 +16,7 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< Updated upstream
     text-align: center;
 }
 main {
@@ -24,6 +25,11 @@ main {
     position: absolute;
     overflow: hidden;
     text-align: center;
+=======
+    position: fixed;
+    box-sizing: border-box;
+    overflow: hidden;
+>>>>>>> Stashed changes
     background: linear-gradient(to bottom left, #25A22B, #FFFFFF);
 }
 .body {
@@ -37,12 +43,26 @@ main {
     float: left;
     box-shadow: -2px 12px 10px rgb(75, 73, 73);
 }
+<<<<<<< Updated upstream
 .right {
     width: 500px;
     height: 650px;
     font-weight: 600,bold;
     float: left;
     align-items: center;
+=======
+.img {
+    margin-bottom: 0;
+    box-shadow: -3px 12px 10px rgb(75, 73, 73);
+}
+.signup-content {
+    width: 400px;
+    height: 480px;
+    margin-top: 25px;
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+>>>>>>> Stashed changes
     color: #25A22B;
     box-shadow: 0px 12px 10px rgb(75, 73, 73);
     background-color: rgb(255, 255, 255);
