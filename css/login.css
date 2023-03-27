@@ -4,6 +4,22 @@
     src: url(/font/Poppins-Black.ttf);
 }
 @font-face {
+    font-family: 'Poppins-Bold';
+    src: url(/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url(/font/Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(/font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(/font/Poppins-SemiBold.ttf);
+}
+@font-face {
     font-family: 'Poppins-Regular';
     src: url(/font/Poppins-Regular.ttf);
 }
