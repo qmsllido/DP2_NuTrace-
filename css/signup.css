@@ -1,65 +1,63 @@
 /* font */
 @font-face {
     font-family: 'Poppins-Black';
-    src: url(font/Poppins-Black.ttf);
+    src: url(/font/Poppins-Black.ttf);
 }
 @font-face {
     font-family: 'Poppins-Bold';
-    src: url(font/Poppins-Bold.ttf);
+    src: url(/font/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: 'Poppins-Italic';
-    src: url(font/Poppins-Italic.ttf);
+    src: url(/font/Poppins-Italic.ttf);
 }
 
 /* body */
-*{
+* {
     margin: 0;
     padding: 0;
     text-align: center;
 }
-main{
+main {
     width: 100%;
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: linear-gradient(to bottom left, #25A22B, #FFFFFF);
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom left, #25A22B, #FFFFFF);
 }
-.body{
+.body {
     height: 100%;
     width: 100%;
-    margin-top: 45px;
-    margin-left: 5.5vw;
+    margin-top: 30px;
+    margin-left: 110px;
 }
-.left{
+.left {
     width: auto;
     float: left;
     box-shadow: -2px 12px 10px rgb(75, 73, 73);
 }
-.right{
-    background-color: rgb(255, 255, 255);
+.right {
     width: 500px;
     height: 650px;
-    float: left;
-    box-shadow: 0px 12px 10px rgb(75, 73, 73);
-    align-items: center;
     font-weight: 600,bold;
+    float: left;
+    align-items: center;
     color: #25A22B;
+    box-shadow: 0px 12px 10px rgb(75, 73, 73);
     background-color: rgb(255, 255, 255);
 }
 .form {
-    padding-top: 32px;
+    padding-top: 35px;
 }
 h1 {
     font-size: 70px;
     font-family:'Poppins-Black';
 }
-h2{
+h2 {
     font-family:'Poppins-Bold';
 }
-p{
+p {
     font-family:'Poppins-Italic';
 }
 hr.rounded {
