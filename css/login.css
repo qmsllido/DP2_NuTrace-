@@ -1,124 +1,144 @@
 /* font */
 @font-face {
     font-family: 'Poppins-Black';
-    src: url(font/Poppins-Black.ttf);
+    src: url(/font/Poppins-Black.ttf);
 }
 @font-face {
-    font-family: 'Poppins-Bold';
-    src: url(font/Poppins-Bold.ttf);
+    font-family: 'Poppins-Regular';
+    src: url(/font/Poppins-Regular.ttf);
 }
-@font-face {
-    font-family: 'Poppins-Italic';
-    src: url(font/Poppins-Italic.ttf);
-}
-h1, h2, h3, h4{
-    line-height: 1.5rem;
-}
-p{
-    font-family:'Poppins-Italic';
-}
+
 /* body */
-*{
+html {
+    width: 100rem;
+    height: 100rem;
     margin: 0;
     padding: 0;
-}
-body{
-    width: auto;
-    height: auto;
-    background: linear-gradient(to bottom left, #25A22B, #FFFFFF);
-    background-attachment: fixed;
-    padding: 50px;
-    margin-left: 180px;
-}
-.main{
-    max-width: 100%;
-    max-height: 100%;
-    display: inline-flex;
-    position: relative;
+    position: fixed;
+    box-sizing: border-box;
     overflow: hidden;
+    background: linear-gradient(to bottom left, #25A22B, #FFFFFF);
+}
+.content {
+    display: inline-flex;
+}
+.img-content {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+.img {
+    margin-bottom: 0;
+    box-shadow: -3px 12px 10px rgb(75, 73, 73);
+}
+.login-content {
+    width: 400px;
+    height: 480px;
+    margin-top: 25px;
+    padding-top: 20px;
+    display: inline-block;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    padding: 0px;
-    box-shadow: 10px 10px 5px gray;
-}
-.left{
-    width: 450px;
-    height: 500px;
-    float: left;
-
-}
-.right{
-    background-color: rgb(255, 255, 255);
-    width: 450px;
-    height: 500px;
-    float: left;
-    align-items: center;
-    font-weight: 600,bold;
     color: #25A22B;
+    box-shadow: -3px 12px 10px rgb(75, 73, 73);
     background-color: rgb(255, 255, 255);
 }
 .form {
-    padding-top: 32px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin-right: 15px;
 }
 h1 {
-    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
     font-family:'Poppins-Black';
 }
-h2{
-    font-family:'Poppins-Bold'
+h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family:'Poppins-Black'
 }
 p{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 15px;
     font-family:'Poppins-Italic';
-    font-size: xx-small;
 }
 hr.rounded {
+    margin-top: 0;
+    margin-bottom: 15px;
     border-top: 0.5px solid #cac1c1;
     border-radius: 5px;
-    margin: 10px;
     margin-left: 50px;
     margin-right: 50px;
     align-items: center;
 }
-button {
-    position: absolute;
+.text1 {
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    font-family: 'Poppins-SemiBold';
+}
+.text2 {
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left;
+    font-family: 'Poppins-SemiBold';
+}
+.textbox{
+    padding: 12px;
+    width: 300px;
+    margin: 3px;
+    border-radius: 15px;
     font-size: 15px;
-    margin: 5px;
+    justify-content: center;
+    box-sizing: content-box;
+    border: none;
+    background-color: rgb(192, 189, 189);
+}
+.p1 {
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-right: 40px;
+    font-size: 15px;
+    color: #cac1c1;
+    text-align: right;
+    font-family: 'Poppins-Medium';
+}
+.p2{
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    font-size: 12px;
+    color: #cac1c1;
+    text-align: right;
+    font-family: 'Poppins-Italic';
+}
+.p3 {
+    margin-top: 10px;
+    font-size: 12px;
+    color: black;
+    justify-content: center;
+    font-family: 'Poppins-Regular';
+}
+button {
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 25px;
     border: none;
     color: white;
     cursor: pointer;
-    font-family:'Poppins-Black';
+    font-family:'Poppins-Bold';
     background-color: #25A22B;
 }
-.loginForm{
-    text-align: left;
-    margin-left: 50px;
-}
-.username{
-    padding: 8px;
-    width: 350px;
-    margin: 3px;
-    box-sizing: content-box;
-    border: none;
-    border-radius: 8px;
-    background-color: rgb(192, 189, 189);
-}
-.password{
-    padding: 8px;
-    width: 350px;
-    margin: 3px;
-    box-sizing: content-box;
-    border: none;
-    border-radius: 8px;
-    background-color: rgb(192, 189, 189);
-}
-.loginForm p {
-    text-align: center;
-    margin-right: 50px;
-}
 .loginBtn {
-    width: 350px;
-    height: 50px;
+    width: 320px;
     justify-self: center;
+}
+a:visited {
+    color: #25A22B;
 }

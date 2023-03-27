@@ -1,34 +1,28 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NuTrace</title>
-    <link rel ="stylesheet" href="/css/login.css">
-    <link rel="icon" type="image/png" href="/images/nutrace_logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="main">
-        <!--<main>-->
-            <div class="left">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NuTrace</title>
+        <link rel ="stylesheet" href="/css/login.css">
+        <link rel="icon" type="image/png" href="/images/nutrace_logo.png">
+    </head>
+    <body>
+        <main class="content">
+            <div class="img-content">
                 <script>
                     var i = 0; 			// Start Point
                     var images = [];	// Images Array
                     var time = 3000;	// Time Between Switch
-                            
                     // Image List
                     images[0] = "/images/duran1.jpeg";
                     images[1] = "/images/duran2.jpg";
                     images[2] = "/images/duran3.webp";
-                    images[3] = "/images/farm-bg.jpeg";
-
+                    images[3] = "/images/duran4.jpg";
                     // Change Image
                     function changeImg(){
                         document.slide.src = images[i];
-
                         // Check If Index Is Under Max
                         if(i < images.length - 1){
                         // Add 1 to Index
@@ -37,42 +31,35 @@
                             // Reset Back To O
                             i = 0;
                         }
-
                         // Run function every x seconds
                         setTimeout("changeImg()", time);
                         }
-
                     // Run function when page loads
                     window.onload=changeImg;
                 </script>    
-                <img name="slide" width="450px" height="500px">
+                <img class='img' name="slide" width="700rem" height="500rem">
             </div>
-            <div class="right">
+            <div class="login-content">
                 <div class="form">
                     <div class="logo">
-                        <img src="/images/logo-1.png" width="310px" height="110px">
+                        <img src="/images/nutrace_logo.png" width="45px" height="45px">
                     </div>
-                    <h3>Welcome!</h3>
+                    <h1>NuTrace</h1>
+                </div>
+                    <h4>Welcome!</h4>
                     <p>Maligayang Pagbabalik!</p>
                     <hr class="rounded">
-                    <br>
-
-                    <div class="loginForm">
-                        <form>
-                            <label for="username">Username: </label><br>
-                            <input type="text" class="username" id="username" name="username" placeholder="Username"><br>
-                            <label for="password">Password: </label><br>
-                            <input type="text" class="password" id="password" name="password" placeholder="Password">
-                            <br><p>Forgot Password</p>
-                            <p>Nakalimutan ang password</p>
-                            <br>
-                            <p>No account? <a href="/pages/signup.html">Sign up here</a></p>
-                            <button class="loginBtn">LOG IN</button><br>
-                        </form>
-                    </div>
-                </div>
+                <form class="loginForm">
+                    <label class="text1" for="username">Username: </label><br>
+                    <input type="text" class="textbox" id="username" name="username" placeholder="Username"><br>
+                    <label class="text2" for="password">Password: </label><br>
+                    <input type="text" class="textbox" id="password" name="password" placeholder="Password">
+                    <p class="p1"><u>Forgot Password</u></p>
+                    <p class="p2">Nakalimutan ang password</p>
+                    <button class="loginBtn">LOG IN</button><br>
+                    <p class="p3">No account? <a href="/pages/signup.html">Sign up here</a></p>
+                </form>                        
             </div>
-        <!--</main>-->
-    </div>
-</body>
+        </main>
+    </body>
 </html>
