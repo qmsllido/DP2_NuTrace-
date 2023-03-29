@@ -12,6 +12,24 @@
     src: url(/font/Poppins-Italic.ttf);
 }
 
+/* screen size */
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (max-width: 1366px) {
+    
+}
+@media screen and (max-width: 1600px) {
+    
+}
+@media screen and (max-width: 1366px) {
+    
+}
+@media screen and (max-width: 2560px) {
+    
+}
+/* yung 1920 hindi na need */
+
 /* body */
 html {
     width: 100rem;
@@ -26,19 +44,18 @@ html {
     display: inline-flex;
 }
 .img-content {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 30px;
-    padding-left: 70px;
+    padding-left: 80px;
 }
 .img {
     box-shadow: -3px 12px 10px rgb(75, 73, 73);
     margin-bottom: 0;
 }
 .signup-content {
-    width: 400px;
-    height: 480px;
-    margin-top: 25px;
-    padding-top: 20px;
+    width: 450px;
+    height: 600px;
+    margin-top: 50px;
     display: inline-block;
     text-align: center;
     color: #25A22B;
@@ -48,7 +65,7 @@ html {
 h1 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 50px;
+    font-size: 55px;
     font-family:'Poppins-Black';
 }
 h2 {
@@ -71,9 +88,9 @@ hr.rounded {
 
 /* buttons */
 button {
-    font-size: 20px;
-    margin: 3px;
-    padding: 10px;
+    font-size: 28px;
+    margin: 5px;
+    padding: 12px;
     border-radius: 20px;
     border: none;
     color: white;
@@ -86,10 +103,14 @@ button {
     padding-right: 120px;
 }
 .btn2 {
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 108px;
+    padding-right: 108px;
 }
 .btn3 {
-    padding-left: 72px;
-    padding-right: 72px;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+button:hover {
+    background-color: #8f8f8f;
+    transition-duration: 0.1s;
 }
