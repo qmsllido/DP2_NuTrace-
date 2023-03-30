@@ -12,13 +12,6 @@
     src: url(/font/Poppins-Italic.ttf);
 }
 
-<<<<<<< Updated upstream
-p
-{
-	font-size: 1.75rem;
-}
-=======
->>>>>>> Stashed changes
 *{
 	padding: 0;
 	margin: 0;
@@ -26,17 +19,10 @@ p
 }
 
 body{
-<<<<<<< Updated upstream
-	background: linear-gradient(to bottom left, #25A22B, #FFFFFF) fixed;
-	padding: 10px 10px;
-	height: 100vh;
-	width: 100%;
-=======
 	background: linear-gradient(to bottom left, #25A22B, #FFFFFF);
 	background-repeat: none;
 	background-attachment: fixed;
 	padding: 5px auto;
->>>>>>> Stashed changes
 }
 .container{
 	/*border: 2px solid black;*/
@@ -45,37 +31,22 @@ body{
 	width: 100%;
 	background-color: whitesmoke;
 	margin: 20px auto;
-<<<<<<< Updated upstream
-=======
 	padding: 5px auto;
->>>>>>> Stashed changes
 	border-radius: 10px;
 	box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
 	font-family: 'Poppins', sans-serif;
 }
-<<<<<<< Updated upstream
-.rounded{
-	width: 90%;
-	margin: 10px auto;
-=======
 .container .register .logo{
 	padding-top: 15px;
 }
 .rounded{
 	box-sizing: border-box;
->>>>>>> Stashed changes
 }
 .container .register{
 	font-size: 1.345rem;
 	font-weight: 700;
-<<<<<<< Updated upstream
-	margin-top: 30px auto;
-	padding-top: 10px;
-	margin-bottom: 15px;
-=======
 	padding: auto;
 	margin-bottom: 3px;
->>>>>>> Stashed changes
 	color: #25a22b;
 	text-transform: uppercase;
 	text-align: center;
@@ -90,11 +61,7 @@ body{
 	margin-left: 5%;
 	width: 100%;
 	height: auto;
-<<<<<<< Updated upstream
-	font-size: 1.45rem;
-=======
 	font-size: 1.25rem;
->>>>>>> Stashed changes
 }
 .container .form .input-field{
 	margin-bottom: 20px;
@@ -108,47 +75,27 @@ body{
 	color: #25a22b;
 	width: 150px;
 	margin-right: 10px;
-<<<<<<< Updated upstream
-	margin-left: 15%;
-=======
 	margin-left: 20%;
->>>>>>> Stashed changes
 	font-size: 1rem;
 }
 .container .form input{
 	width: 300px;
-<<<<<<< Updated upstream
-	margin-left: 15%;
-	padding: 2px;
-	background-color: rgb(224, 217, 217);
-	border: none;
-	border-radius: 8px;
-	font-size: 1.25rem;
-=======
 	margin-left: 20%;
 	padding: 5px;
 	background-color: rgb(224, 217, 217);
 	border: none;
 	border-radius: 8px;
 	font-size: 1rem;
->>>>>>> Stashed changes
 	text-indent: 10px;
 	font-family: 'Poppins', sans-serif;
 	
 }
 .container .form .submitBtn{
 	width: 150px;
-<<<<<<< Updated upstream
-	margin-left: 30%;
-	margin-bottom: 25px;
-	margin-top: 10px;
-	padding: 2px;
-=======
 	margin-left: 35%;
 	margin-bottom: 20px;
 	margin-top: auto;
 	padding: 5px;
->>>>>>> Stashed changes
 	background-color: #25a22b;
 	border: none;
 	border-radius: 8px;
