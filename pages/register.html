@@ -14,23 +14,24 @@
 	<body>
 		<div class="container">
 			<div class="register">
-				<div class="img">
-					<img src="/images/nutrace_logo.png" width="140px" height="140px">
+				<div class="logo">
+					<img src="/images/nutrace_logo.png" width="100px" height="100px">
 				</div>
 				<h1> NuTrace</h1>
-				<hr class="rounded">
-				<br><p>Registration Form<p>
+				<h6 class="regTitle">Registration Form</h6>
 			</div>
 			<div class="form">
-				<label>Name:</label><br>
-				<input type="text" class="input" placeholder="Your Name"><br>
-				<label>Contact Number:</label><br>
-				<input type="text" class="input" placeholder="09XXXXXXXXX"><br>
-				<label>Email:</label><br>
-				<input type="text" class="input" placeholder="juandelacruz@gmail.com"><br>
-				<label>Password:</label><br>
-				<input type="text" class="input"><br><br>
-				<input type="submit" value="Proceed" class="submitBtn">
+				<form action="connect.php" method="post">
+					<label>Name:</label><br>
+					<input type="text" class="input" name="name" placeholder="Your Name" required><br>
+					<label>Contact Number:</label><br>
+					<input type="text" class="input" name="contact" placeholder="09XXXXXXXXX" required><br>
+					<label>Email:</label><br>
+					<input type="email" class="input" name="email" placeholder="juandelacruz@gmail.com" required><br>
+					<label>Password:</label><br>
+					<input type="password" class="input" name="password" placeholder="********"  maxlength="20" required><br><br>
+					<input type="submit" value="proceed" class="submitBtn">
+				</form>
 			</div>
 		</div>		
 	</body>
